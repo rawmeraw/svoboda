@@ -658,7 +658,7 @@ document.addEventListener('DOMContentLoaded', function() {{ resetFilter(); }});
 </body>
 </html>"""
 
-with open("report.html", "w", encoding="utf-8") as f:
+with open("index.html", "w", encoding="utf-8") as f:
     f.write(html)
 
-print(f"Отчёт сохранён: report.html ({len(html)} байт, {total} отзывов)", flush=True)
+print(f"Отчёт сохранён: index.html ({len(html)} байт, {total} отзывов)", flush=True)
